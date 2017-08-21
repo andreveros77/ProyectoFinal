@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width", user-scalable:no">
+    <title>Educacion CV</title>
+  </head>
+
+  <body>
+      <svg height="150" width="150">
+        <image width="150px" height="150px" xlink:href="img/cv-icon.svg"></image>
+        <h1> Curriculum Vitae </h1>
+        <h2> Datos Personales </h2>
+          <h3> Nombre :  Oscar    Apellidos  Rodriguez Badilla</h3>
+          <h3>Fecha y Lugar de Naclimeinto: 28/09/1975 Hospital de la Mujer</h3>
+
+
+  </body>
+</html>

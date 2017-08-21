@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,user-scalable=no">
+    <title>Etiquetas para  Audio y Video</title>
+  </head>
+  <body>
+    <h2>AUTOPLAY</H2>
+    <p>Reproduce el video inmediatamente se abre la Web, sin necesidad de dar clic en el boton  de reproduccion.</p>
+    <audio scr="media/oscarhb.mp3"controls autoplay></audio>
+    <h2>Loop</H2>
+    <p>Este atributo se encarga automaticamente de reproducir el audio siempre que termine</p>
+    <audio scr="media/oscarhb.mp3"controls loop></audio>
+    <h2>preload</h2>
+    <p>Este atributo tiene un comportamiento especial cuando estamos trabajando  con  archivos  multimedia que son  pesados </p>
+    <p>Este atributo se encarga automaticamente de reproducir el audio siempre que termine</p>
+     <ul>
+        <li> none: No almacenar  nustros archivos.</li>
+        <audio scr="media/oscarhb.mp3"controls preload="none"></audio>
+        <li> auto: Almacena temporalmente el  archivo multimedia.</li>
+        <audio scr="media/oscarhb.mp3"controls preload="auto"></audio>
+      </ul>
+
+  </body>
+</html>
